@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "title": "learn React",
+      "isDone": true,
+      "id": 1
+    },
+    {
+      "title": "learn Vue",
+      "isDone": false,
+      "id": 2
+    },{
+      "title": "learn django",
+      "isDone": false,
+      "id": 3
+    },{
+      "title": "learn angular",
+      "isDone": false,
+      "id": 4
+    },{
+      "title": "learn react-query",
+      "isDone": false,
+      "id": 5
+    },{
+      "title": "learn Redux",
+      "isDone": false,
+      "id": 6
+    },{
+      "title": "learn react-hool-form",
+      "isDone": false,
+      "id": 7
+    }
+  ]
+}

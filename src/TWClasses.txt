@@ -1,0 +1,23 @@
+Utilities for controlling the space between child elements.
+Class: space-x-3.5   ->	margin-left: 0.875rem; /* 14px */
+Class: space-y-3.5   ->	margin-top: 0.875rem; /* 14px */
+
+Utilities for controlling the border width between elements.
+Class: divide-y-0   -> border-top-width: 0px;  border-bottom-width: 0px;
+Class: divide-x-2   -> border-right-width: 0px;  border-left-width: 2px;
+
+Utilities for controlling the tracking (letter spacing) of an element.
+Class: tracking-wider   ->	letter-spacing: 0.05em;
+Class: tracking-widest  ->	letter-spacing: 0.1em;
+Class: tracking-[.15rem] ->  letter-spacing: 0.15rem;
+
+Utilities for controlling the duration of CSS transitions.
+Class: duration-100   ->	transition-duration: 100ms;
+
+Utilities for setting the maximum width of an element.
+Class: max-w-7   	  max-width: 1.75rem; /* 28px */
+Class: max-w-xl   	max-width: 36rem; /* 576px */
+
+Styling based on parent state (group-{modifier})
+When you need to style an element based on the state of some parent element, mark the parent with the group class, and use group-* modifiers like group-hover to style the target element:
+https://tailwindcss.com/docs/hover-focus-and-other-states#styling-based-on-parent-state
